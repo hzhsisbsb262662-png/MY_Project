@@ -1,0 +1,46 @@
+#countdown{
+    color: #1c6ed2;
+    padding: 10px;
+    width: 380px;
+}
+#cards{
+    display: none;
+    
+}
+#winner{
+    margin-bottom: 10px;
+}
+#loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.loder-con{
+     pointer-events: none;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:block ;
+}
+img{
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+    border: 7px solid rgb(4, 141, 247);
+    border-radius: 150px;
+    padding: 2px;
+}
+.center-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+}
+
+.center-section ul{
+    width: 100%;
+    max-width: 600px;  
+}
